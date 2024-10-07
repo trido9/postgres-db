@@ -1,0 +1,9 @@
+APP_NAME=datawarehouse
+
+EXPOSED_PORT=5441
+
+PG_PASSWORD=tUbsuzMugzeHYwV
+
+PG_VERSION=12
+
+

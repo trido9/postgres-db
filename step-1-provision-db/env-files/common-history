@@ -1,0 +1,9 @@
+APP_NAME=common-history
+
+EXPOSED_PORT=5439
+
+PG_PASSWORD=HMvDdXIBAqIpwzg
+
+PG_VERSION=12
+
+

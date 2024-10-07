@@ -1,0 +1,20 @@
+name: ${APP_NAME}
+services:
+  postgres:
+    container_name: ${APP_NAME}
+    environment:
+      - POSTGRES_PASSWORD=${PG_PASSWORD}
+    ports:
+      - ${EXPOSED_PORT}:5432
+    volumes:
+      - pg_data:/var/lib/postgresql/data
+      - pg_log:/var/log/postgresql/
+    image: postgres:${PG_VERSION}
+    command: "-c work_mem=256MB -c log_min_duration_statement=10000 -c logging_collector=on \
+              -c log_truncate_on_rotation=on -c log_directory='/var/log/postgresql/' -c max_connections=10000"
+    restart: always
+volumes:
+  pg_data:
+    driver: local
+  pg_log:
+    driver: local

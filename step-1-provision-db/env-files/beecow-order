@@ -1,0 +1,9 @@
+APP_NAME=beecow-order
+
+EXPOSED_PORT=5436
+
+PG_PASSWORD=bYyhEFjXYRqBMrx
+
+PG_VERSION=12
+
+

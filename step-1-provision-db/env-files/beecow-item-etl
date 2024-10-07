@@ -1,0 +1,9 @@
+APP_NAME=beecow-item-etl
+
+EXPOSED_PORT=5435
+
+PG_PASSWORD=UMkhYagEuXXzQKs
+
+PG_VERSION=12
+
+

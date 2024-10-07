@@ -1,0 +1,9 @@
+APP_NAME=beecow-item
+
+EXPOSED_PORT=5434
+
+PG_PASSWORD=JXj8oSxGmBcE2hd
+
+PG_VERSION=12
+
+

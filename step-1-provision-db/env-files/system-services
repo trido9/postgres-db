@@ -1,0 +1,9 @@
+APP_NAME=system-services
+
+EXPOSED_PORT=5444
+
+PG_PASSWORD=tc7apxgS1kEE6eS
+
+PG_VERSION=12
+
+
